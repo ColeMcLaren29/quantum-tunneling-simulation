@@ -29,7 +29,9 @@ Built by Cole McLaren and Dan Griffith.
      - qiskit-env\Scripts\activate
 3. Installed Required Packages
      - pip install qiskit numpy matplotlib
-   (if errors with pip, use pip3 install qiskit numpy matplotlib)
+     - (if errors with pip, use pip3 install qiskit numpy matplotlib)
 4. Run Simulation
    - To run simulation once environment is created, simply run:
      - python3 Quantum_Simulation_Tunneling.py
+
+Once running, 
