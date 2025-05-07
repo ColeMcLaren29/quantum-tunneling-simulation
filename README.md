@@ -35,3 +35,9 @@ Built by Cole McLaren and Dan Griffith.
      - python3 Quantum_Simulation_Tunneling.py
 
 Once running, different quantum states can be inputed at line 12 -- inital_state = Statevector.from_label('Desired Quantum State') to see how different states are affected by barrier.
+
+# Report
+Find the full theoretical framework and implementation details in the full report:
+[Quantum Tunneling Simulation Report](./Quantum_Tunneling_Simulation_Report.pdf)
+
+
