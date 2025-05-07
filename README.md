@@ -20,16 +20,16 @@ Built by Cole McLaren and Dan Griffith.
 # How To Run
 1. Setup Environment
    - Creating a clean python environment to avoid version conflicts is recommended.
-   - Set this up in same directory that Quantum Simulation.py file is in
-   python3 -m venv qiskit-env
+   - Set this up in same directory that Quantum Simulation.py file is in:
+     - python3 -m venv qiskit-env
 2. Activate Environment
    - On Mac/Linux:
-     source qiskit-env/bin/activate
+     - source qiskit-env/bin/activate
    - On Windows:
-     qiskit-env\Scripts\activate
+     - qiskit-env\Scripts\activate
 3. Installed Required Packages
-   pip install qiskit numpy matplotlib
+     - pip install qiskit numpy matplotlib
    (if errors with pip, use pip3 install qiskit numpy matplotlib)
 4. Run Simulation
    - To run simulation once environment is created, simply run:
-   python3 Quantum_Simulation_Tunneling.py
+     - python3 Quantum_Simulation_Tunneling.py
