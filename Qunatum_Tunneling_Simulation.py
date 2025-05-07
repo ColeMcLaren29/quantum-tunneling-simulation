@@ -8,8 +8,9 @@ import matplotlib.pyplot as plt
 N_qubits = 4
 delta_t = 0.01
 steps = 200
-state_vector = np.ones(16, dtype=complex) / np.sqrt(16)
-initial_state = Statevector(state_vector)
+# next line is used for starting simulation in uniform superposition
+# state_vector = np.ones(16, dtype=complex) / np.sqrt(16)
+initial_state = Statevector.from_label('0000')
 
 # Build one time-step circuit
 qc = QuantumCircuit(N_qubits)
